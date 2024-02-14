@@ -1,0 +1,24 @@
+<div class="products-filters">
+  <form class="products-filters__form" [formGroup]="filterForm">
+    <div class="products-filters__filter">
+      <label class="products-filters__filter-name" for="name">Name:</label>
+      <input class="products-filters__filter-field" type="text" id="name" formControlName="name" />
+    </div>
+    <div class="products-filters__filter">
+      <label class="products-filters__filter-name" for="category">Category:</label>
+      <input class="products-filters__filter-field" type="text" id="category" formControlName="category" />
+    </div>
+    <div class="products-filters__filter">
+      <label class="products-filters__filter-name" for="minPrice">Min Price:</label>
+      <input class="products-filters__filter-field" type="number" id="minPrice" formControlName="minPrice" />
+    </div>
+    <div class="products-filters__filter">
+      <label class="products-filters__filter-name" for="maxPrice">Max Price:</label>
+      <input class="products-filters__filter-field" type="number" id="maxPrice" formControlName="maxPrice" />
+    </div>
+    <div class="products-filters__actions">
+      <button class="products-filters__action" (click)="applyFilter()">Apply Filter</button>
+      <button class="products-filters__action" (click)="resetFilters()">Reset Filter</button>
+    </div>
+  </form>
+</div>

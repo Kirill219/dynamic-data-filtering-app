@@ -1,0 +1,28 @@
+.dynamic-data-filtering-app {
+  padding: 40px;
+  margin: auto;
+}
+
+.title {
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+table {
+  background: #f6f4f4;
+  border: 1px solid lightgray;
+}
+
+td {
+  padding-top: 10px;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+}
+
+.pagination {
+  margin-top: 10px;
+}
